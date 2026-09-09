@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+venv311/
+.env
+
+# Input videos
+input/*.mp4
+input/*.mov
+input/*.avi
+
+# Generated videos
+output/annotated/*.mp4
+output/annotated/*.mov
+output/annotated/*.avi
+
+# Large/raw landmark datasets
+output/data/landmarks.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
