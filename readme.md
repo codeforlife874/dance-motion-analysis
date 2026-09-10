@@ -1,3 +1,5 @@
+<img width="287" height="374" alt="image" src="https://github.com/user-attachments/assets/8e03c459-42ee-4ac2-85c0-8db7f8560335" />
+
 <img width="2400" height="1200" alt="dance_movement_timeline" src="https://github.com/user-attachments/assets/455dec46-51d9-4464-9835-9f1dfe0de67e" />
 
 # Dance Motion Analysis Using Human Pose Estimation
