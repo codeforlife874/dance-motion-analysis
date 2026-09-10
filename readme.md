@@ -116,3 +116,29 @@ Possible extensions include:
 * Movement symmetry analysis
 * Real-time pose analysis using a webcam
 * Automatic segmentation of dance movements
+
+## Dance Movement Detection
+
+The project extends pose estimation into movement detection using body landmark relationships and temporal motion features.
+
+The prototype detects several movement categories:
+
+- Hand Raise
+- Arm Movement
+- Squat
+- Leg Lift
+- Standing / Neutral
+
+Movement detection uses:
+
+- Relative wrist and shoulder positions
+- Knee joint angles
+- Ankle position differences
+- Temporal wrist displacement
+
+The detected movements are grouped into continuous segments to produce a dance movement timeline.
+## Example Output
+
+The system produces a movement timeline showing detected dance actions throughout the video.
+
+![Dance Movement Timeline](output/plots/dance_movement_timeline.png)
